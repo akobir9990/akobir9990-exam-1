@@ -1,0 +1,80 @@
+.form {
+  padding: 100px 0;
+}
+
+form input[type="text"] {
+  height: 50px;
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+textarea {
+  height: 156px;
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+textarea::placeholder,
+form input::placeholder {
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #828282;
+}
+select {
+  height: 50px;
+  width: 100%;
+  padding: 12px 20px 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+}
+select option {
+  height: 50px;
+  width: 100%;
+  font-family: "Montserrat-400";
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+button[type="submit"] {
+  height: 58px;
+  width: 163px;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+  background: var(--primary-color);
+  color: white;
+  margin-top: 59px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button[type="submit"]:hover {
+  transform: scale(1.1);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  transition: 0.5s;
+}

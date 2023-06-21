@@ -1,0 +1,101 @@
+@import url(common.css);
+
+.services .container {
+  padding: 125px 0px 150px 0;
+}
+.services-heading .title {
+  font-family: "Montserrat-700";
+  font-size: 40px;
+  color: var(--text-color);
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.services-heading .subtitle {
+  max-width: 511px;
+  margin: 0 auto;
+  font-family: "Montserrat-500";
+  font-size: 14px;
+  color: var(--second-text-color);
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services-content .video {
+  height: 442px;
+  width: 597px;
+
+  background-image: url(../images/services-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-content .video .play {
+  height: 97px;
+  width: 97px;
+  border-radius: 50%;
+  background-color: #00a0c1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.services-content .video .play:hover {
+  transform: scale(1.1);
+}
+.services-content .content-info {
+  height: 418px;
+  width: 333px;
+}
+.content-info h2 {
+  font-family: "Montserrat-700";
+  font-size: 40px;
+  color: var(--text-color);
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin: 10px 0;
+}
+.content-info .contact-info-subtitle {
+  font-family: "Montserrat-500";
+  font-size: 14px;
+  color: var(--second-text-color);
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  margin: 10px 0 30px 0;
+}
+.content-info span {
+  display: flex;
+
+  justify-content: start;
+  gap: 20px;
+  align-items: start;
+}
+.content-info span h4 {
+  font-family: "Montserrat-700";
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.content-info span p {
+  font-family: "Montserrat-600";
+  font-size: 14px;
+  color: var(--second-text-color);
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+}

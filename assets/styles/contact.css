@@ -1,0 +1,83 @@
+@import url(common.css);
+.contact-us {
+  padding: 125px 0;
+  background: #f3f3f3;
+}
+.contact-us .title {
+  font-family: "Montserrat-700";
+  font-size: 40px;
+  color: var(--text-color);
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+.contact-us .subtitle {
+  height: 40px;
+  max-width: 470px;
+
+  font-family: "Montserrat-500";
+  font-size: 14px;
+  color: var(--secon-text-color);
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.contact-item {
+  height: 333px;
+  width: 328px;
+  background: #ffffff;
+  padding: 50px 40px 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.contact-item p {
+  font-family: "Montserrat-600";
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 24px;
+  text-align: center;
+  margin: 15px 0;
+}
+.contact-item h3 {
+  font-family: "Montserrat-700";
+  font-size: 16px;
+  color: var(--text-color);
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+.contact-item button {
+  height: 44px;
+  width: 160px;
+  left: 84px;
+  top: 239px;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  margin: 15px 0;
+}
+.contact-item:hover {
+  background: var(--dark-background-color);
+}
+.contact-item:hover button {
+  color: white;
+  border: 1px solid white;
+}
+.contact-item:hover p,
+.contact-item:hover h3 {
+  color: white;
+}
